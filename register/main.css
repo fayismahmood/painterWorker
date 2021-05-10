@@ -1,0 +1,45 @@
+nav {
+  padding: 0 inherit;
+}
+nav ul.navbar-nav {
+  line-height: 33px;
+}
+nav a.active {
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.308);
+}
+
+main {
+  background: linear-gradient(rgba(70, 3, 3, 0.171), rgba(195, 160, 63, 0.096));
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 15px;
+  }
+}
+.container {
+  background: white;
+}
+.container > .row > :nth-child(1) {
+  min-height: 300px;
+  background: url("https://image.freepik.com/free-vector/sign-concept-illustration_114360-125.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.container > .row > :nth-child(2) {
+  padding: 40px 60px;
+}
+@media (max-width: 600px) {
+  .container > .row > :nth-child(2) {
+    padding: 40px 1rem;
+  }
+}
+.container > .row h2 {
+  margin: 15px 0;
+}
+
+/*# sourceMappingURL=main.css.map */
