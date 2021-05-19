@@ -10,6 +10,10 @@ nav a.active {
   background: rgba(255, 255, 255, 0.308);
 }
 
+._info {
+  color: #0456c0;
+}
+
 main {
   background: linear-gradient(rgba(70, 3, 3, 0.171), rgba(195, 160, 63, 0.096));
   padding: 50px;
@@ -35,6 +39,10 @@ main {
 }
 .container > .row > :nth-child(2) {
   padding: 40px 60px;
+  display: grid;
+  place-content: center;
+  justify-content: space-between;
+  text-align: center;
 }
 @media (max-width: 600px) {
   .container > .row > :nth-child(2) {

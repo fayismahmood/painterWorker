@@ -9,6 +9,10 @@ nav {
     background: rgba(255, 255, 255, 0.308);
   }
 }
+
+._info {
+  color: rgb(4, 86, 192);
+}
 main {
   background: linear-gradient(rgba(70, 3, 3, 0.171), rgba(195, 160, 63, 0.096));
   padding: 50px;
@@ -16,7 +20,7 @@ main {
 }
 @media (max-width: 600px) {
   main {
-   // background: black;
+    // background: black;
     padding: 15px;
   }
 }
@@ -25,22 +29,27 @@ main {
   background: white;
   & > .row {
     & > :nth-child(1) {
-      
       min-height: 500px;
       background: url("https://image.freepik.com/free-vector/sign-concept-illustration_114360-125.jpg");
-    
+
       background-position: center;
       background-size: cover;
     }
 
-    .tab-content{
-      padding:  30px 0;
+    .tab-content {
+      padding: 30px 0;
     }
-    &>:nth-child(2){
+    & > :nth-child(2) {
       padding: 40px 60px;
+
+      display: grid;
+      place-content: center;
+      justify-content: space-between;
+      text-align: center;
+      & > * {
+      }
       @media (max-width: 600px) {
-      padding: 40px 1rem;
-        
+        padding: 40px 1rem;
       }
     }
     h2 {
